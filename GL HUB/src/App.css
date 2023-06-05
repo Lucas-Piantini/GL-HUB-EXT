@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+body {
+  margin: 0;
+  background-color: #ebebeb;
+  width: 600px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-family: 'DM Sans',sans-serif!important;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  border-radius: 20px;
+  width: 90%;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0.5rem;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  width: 70%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-family: 'DM Sans',sans-serif!important;
+}
+
+.icon {
+  height: 60%;
+  width: 20%;
+  object-fit: contain;
+}
+
+.categoryContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.titleContainer {
+  margin: 0.5rem 0;
+  border-radius: 15px;
+  background-color: #f37037;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding: 0.5rem 0;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
